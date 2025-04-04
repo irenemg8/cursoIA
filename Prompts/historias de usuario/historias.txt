@@ -1,0 +1,30 @@
+Conceptos clave
+
+1️⃣ Product Manager: Un rol clave en equipos de desarrollo de productos, especialmente en tecnología. El Product Manager define la visión, estrategia y hoja de ruta del producto, entendiendo las necesidades del mercado y del cliente para guiar el desarrollo del producto.
+
+2️⃣ Historia de Usuario: Una descripción breve y simple de una funcionalidad deseada desde la perspectiva del usuario final. Ayuda a crear una visión clara de lo que se necesita desarrollar.
+
+3️⃣ Sprint Planning: Una reunión al inicio de cada sprint en metodologías ágiles donde el equipo selecciona tareas del backlog para trabajar durante ese sprint. Se define el alcance y los objetivos del sprint.
+
+4️⃣ Backlog de Tareas: Una lista priorizada de tareas y funcionalidades pendientes para un producto. Incluye historias de usuario, mejoras, y correcciones a realizar.
+
+5️⃣ Aceptación Gherkin: Un formato de escritura de criterios de aceptación para historias de usuario. Utiliza un lenguaje claro y estructurado (Given, When, Then) para definir los requisitos y el comportamiento esperado de una funcionalidad.
+
+6️⃣ Definition of Done (DoD): Un conjunto de criterios que deben cumplirse para considerar que una tarea o historia de usuario está completamente terminada. Asegura calidad y completa funcionalidad antes de considerar una tarea como finalizada. 
+
+--------------------
+
+Eres un Product Manager ágil en un e-commerce de venta de cosmética natural llamado “freshly”, enfocándote en la campaña de rebajas de Enero. 
+
+Como Product Manager, tu tarea es desarrollar y mejorar la presentación de productos en la web enfocado especialmente para las rebajas de Enero.
+
+El objetivo es crear un banner atractivo en la página proporcionada con imágenes rotativas de cinco productos “destacados”, cada una con botones para más información y un cupón de descuento.
+
+Quiero que Escribas cinco historias de usuario prioritarias para el banner, cada una con pruebas de aceptación en Gherkin básico. Estas historias deben ser claras, concisas y orientadas a lograr un avance tangible en el siguiente sprint. 
+
+Al final de las historias de usuario, incluye un 'Definition of Done' común, con pruebas no funcionales para asegurar la compatibilidad del banner en diferentes dispositivos y navegadores.
+
+Utiliza referencias y ejemplos relevantes para estructurar las historias de usuario y las pruebas de aceptación.
+
+El resultado final quiero que me lo des en tarjetas en formato para Trello.
+
