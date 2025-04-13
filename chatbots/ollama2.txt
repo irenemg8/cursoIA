@@ -1,0 +1,41 @@
+Chatbot with Ollama2
+Ollama es una plataforma de desarrollo de modelos de lenguaje diseñada para simplificar y mejorar la creación y el despliegue de aplicaciones basadas en inteligencia artificial. Es conocida por su enfoque en la accesibilidad y la eficiencia.
+Para usar Ollama instalaremos su software desde:
+
+https://ollama.com/download
+
+
+Advertencia: al instalar en macOS arrastrando a la sección de "Aplicaciones", debes ir a Privacidad y seguridad y dar permiso a "Abrir de todas formas".
+En este momento, no es necesario crear una cuenta en la plataforma, solo será útil en casos avanzados, como integraciones de aplicaciones o llamadas a la API.
+
+Si seguimos los pasos indicados por la plataforma, aceptaremos los puntos y pedirá permisos de administración para instalar comandos. Una vez que lleguemos al paso final, podremos lanzarlo desde cualquier terminal del ordenador con el siguiente comando:
+ollama run llama3
+
+
+---
+
+Este chatbot, como vemos a través del comando, está utilizando el modelo llama3, que es el modelo más capaz en su suite en este momento.
+Meta Llama 3 es una poderosa familia de modelos de lenguaje desarrollados por Meta, disponibles en variantes de 8B y 70B parámetros.
+Estos modelos, tanto preentrenados como ajustados para instrucciones, destacan en tareas de diálogo y superan a muchos modelos de chat de código abierto en puntos de referencia comunes.
+Está entrenado como estándar con 2 billones de tokens.
+
+
+El modelo de Chat está específicamente ajustado para casos de uso de conversación y diálogo.
+Estos son los valores predeterminados en Ollama y para modelos etiquetados con "-chat" en la pestaña de etiquetas.
+
+https://ollama.com/library
+En el enlace Biblioteca Ollama encontrarás una colección de modelos de lenguaje preentrenados ajustados para diversas tareas.
+Estos modelos están organizados por popularidad, novedad y otras categorías, y cubren una amplia gama de aplicaciones, desde generación de código hasta modelos multilingües y conversacionales.
+Cada modelo incluye detalles sobre su tamaño, capacidades y fecha de actualización. Esta biblioteca te permite explorar y usar diferentes modelos según tus necesidades específicas.
+
+
+Por ejemplo:
+GPT-3: Un modelo potente para la generación de texto y el procesamiento del lenguaje natural.
+BERT: Un modelo versátil para tareas de clasificación y comprensión de texto.
+T5: Utilizado para tareas de transformación de texto, como traducción y resumen.
+LLM-chat: Modelos específicamente ajustados para interacciones conversacionales.
+RoBERTa: Una variante optimizada de BERT para obtener mejores resultados en tareas de comprensión de texto.
+XLNet: Un modelo que combina las ventajas de BERT y Transformer-XL para mejorar las capacidades de comprensión y generación de texto.
+DistilBERT: Una versión más ligera de BERT, diseñada para ser más eficiente mientras mantiene un buen rendimiento.
+GPT-Neo: Un modelo de generación de texto basado en la arquitectura GPT, optimizado para tareas de lenguaje natural.
+

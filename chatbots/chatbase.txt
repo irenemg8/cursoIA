@@ -1,0 +1,23 @@
+¿Qué es Chatbase?
+
+Chatbase es una herramienta de análisis de chatbots creada por Google. Permite a los desarrolladores y empresas analizar y optimizar el rendimiento de sus chatbots mediante el seguimiento de interacciones, la identificación de problemas y la mejora de la experiencia del usuario.
+
+Características principales
+Análisis de Conversaciones: Permite examinar el flujo de conversaciones, identificar dónde los usuarios abandonan o se frustran y ver cómo los bots manejan las consultas.
+Seguimiento de Métricas: Chatbase proporciona métricas clave como la cantidad de usuarios, la tasa de retención, el número de mensajes, entre otras. Esto ayuda a entender el comportamiento de los usuarios y la eficiencia del chatbot.
+Corrección de Errores: La plataforma destaca los mensajes que los chatbots no pudieron manejar correctamente, permitiendo a los desarrolladores ajustar y mejorar las respuestas.
+Optimización Continua: Utiliza el aprendizaje automático para recomendar mejoras y adaptaciones, ayudando a los bots a aprender de sus interacciones y mejorar con el tiempo.
+
+Lo primero que haremos será crear una cuenta gratuita en la plataforma.
+https://www.chatbase.co/
+
+Con el plan gratuito podremos crear chatbots limitados que puedan estar alimentados por una serie de caracteres limites, si necesitamos más tendremos que aumentar el plan.
+El limite del plan gratuito son 400.000 caracteres.
+Podemos alimentar de conocimiento a nuestro chatbot a través de ficheros, texto, aplicaciones web, bases de datos de Notion e incluso generar un apartado de preguntas y respuestas.
+
+Veamos un ejemplo sencillo: vamos a cargarle en el apartado web la siguiente tienda de guitarras eléctricas para entrenar neustro chatbot.
+https://www.thomann.de/es/topseller_GF_guitarras_electricas.html
+
+En base a esto, creamos un chatbot y empezamos a preguntarle, y efectivamente nos responde en base a la información que le hemos cargado. Viendo el limite de caracteres, podemos seguir cargándolo de información hasta que nos avise.
+Si vemos debajo del chat View Sources, veremos que aparte del link general, entra en cada una de las guitarras individualmente y recupera la información, proporcionando información lo suficientemente contrastada como para que el chatbot sea veráz.
+Además de esto, podemos personalizar el modelo, el aspecto del chatbot, la seguridad, la forma de recoger leads, integraciones con terceros y, si lo hacemos publico, publicarlo y embeberlo en una web.

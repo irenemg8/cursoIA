@@ -1,0 +1,44 @@
+En este reto guiado aplicaremos las bases de lo aprendido hasta ahora, desde la obtención de datos, realizar pequeñas limpiezas y transformaciones, crear un modelo sencillo y visualizaciones básicas.
+Para ello nuestra fuente de datos, en este caso, será de dos URL distintas, de las que obtendremos dos tablas. La primera tabla representa la deuda mundial por países para los datos disponibles hasta 2022 y la segunda es el PIB de cada país en 2022.
+
+https://datosmacro.expansion.com/deuda
+https://datosmacro.expansion.com/pib
+
+
+---
+
+Imaginemos que tenemos el histórico de datos de pedidos de una empresa
+y queremos representar mediante Power BI un resumen de los datos que reflejen los KPI's principales que respondan a las necesidades de nuestra empresa.
+
+En primer lugar aprenderás como conectarte a un archivo de datos, en este caso un Excel y a realizar una primera visualización, Así como configurar los distintos campos y modificar su aspecto.
+Además, puede surgir la necesidad de ampliar los datos. ¿Cómo podemos hacerlo sin eliminar las visualizaciones y que se actualicen con el nuevo set de datos?
+
+
+Ahora que ya tenemos una visualización donde recogemos el histórico del número de pedidos por producto,
+vamos a crear distintos tipos de visualizaciones que representen los datos de la forma que más se adecue a las preguntas de negocio que necesitemos resolver.
+
+
+Es bastante habitual tener que representar los datos a lo largo de un espacio temporal para poder analizar el comportamiento de nuestros datos a lo largo del tiempo.
+Sin embargo no siempre tenemos un calendario al que podamos asociar nuestros datos para representarlos.
+Para ello Power BI nos permite crear una tabla calendario que nos permitirá generar múltiples visualizaciones asociadas a esta.
+
+
+Otra de las funcionalidades de Power BI en sus últimas actualizaciones son los parámetros de campo.
+Esta funcionalidad nos permite dinamizar los objetos visuales de los informes. Es decir, podemos visualizar el mismo informe de distintas formas según el filtrado de campos o medidas seleccionados.
+
+
+---
+
+En este reto te planteamos crear un tablero a partir de un conjunto de datos de un fichero Excel, que puedes descargar aquí.
+En el fichero podrás encontrar dos tablas:
+• Una tabla de la producción de unidades en distintas líneas de producción en dos turnos (lunes a viernes y fin de semana)
+• Una tabla con los objetivos de producción de unidades por línea de producción para cada uno de los turnos
+
+Tendrás que:
+
+1️⃣ Obtener los datos de las tablas y comprobar si es necesaria alguna transformación o limpieza.
+⚠️ Te recomendamos que cambies el nombre a las tablas para que puedas reconocer cuál es de Producción y cuál es de Objetivos
+
+2️⃣ Crear la conexión en el modelo entre las dos tablas a través del campo común "Líneas"
+
+3️⃣ Crear un tablero con el diseño que se plantea a continuación

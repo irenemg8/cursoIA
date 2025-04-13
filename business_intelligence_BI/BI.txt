@@ -1,0 +1,101 @@
+Power BI Desktop es una aplicación gratuita desarrollada por Microsoft que forma parte de la suite Power BI
+un conjunto de herramientas de análisis de datos y visualización diseñadas para ayudar a los usuarios a crear informes interactivos y paneles de control con facilidad.
+
+Según el origen de datos que tengas o cómo quieras representarlos, será necesario el uso de herramientas complementarias
+como Power Pivot que permite crear modelos, establecer relaciones y crear cálculos o Power Query si es necesaria la transformación de datos previa a su representación.
+
+También podemos complementar su uso con Power Maps y Power View para visualizaciones específicas.
+
+Por supuesto existen otras herramientas de visualización como Tableau o Qlik.
+
+
+---
+
+Para empezar a crear visualizaciones con Power BI Desktop lo primero que vas a necesitar es instalar la herramienta en tu equipo.
+La instalación es sencilla, aunque existen varias opciones, que te describiremos paso a paso.
+
+Microsoft store -> power BI Desktop
+https://www.microsoft.com/es-es/power-platform/products/power-bi/desktop
+https://www.microsoft.com/es-es/download/details.aspx?id=58494
+
+https://www.parallels.com/es/products/desktop/?utm_medium=cpc&utm_source=google&utm_term=parallels%20desktop%20mac&utm_content=&utm_id=43693686&extensionid=&matchtype=e&device=c&devicemodel=&creative=670597955224&network=g&placement=&x-source=ppc&campaign_name=PDfM-B-EN-PS-Tier1-Consolidated&gad_source=1&gclid=CjwKCAjwwe2_BhBEEiwAM1I7sbAbvk_ARB3apSM023BGMQlz9UkDwJEX_nsLV8tGnZc0J7fbCU1N7BoCxOQQAvD_BwE
+
+
+
+---
+
+1. Cinta de opciones
+Donde encontramos distintas pestañas con opciones para realizar diferentes acciones tanto en los datos, como visualizaciones, configuración, etc.
+
+2. Lienzo
+Espacio donde se "pintan" los distintos objetos o visualizaciones, que pueden estar representados por distintos tipos de gráficos y otras representaciones gráficas.
+
+3. Hojas o páginas
+Al igual que en Excel, podemos estructurar nuestro informe por hojas o páginas, para mantener una estructura coherente y organizada.
+
+4. Visualizaciones
+Sección de Power BI Desktop donde se configura y elige el tipo de visualización para los datos seleccionados.
+
+5. Orígenes de datos
+Sección donde se representan las tablas origen de los datos que usamos en el informe y las relaciones establecidas entre ellas.
+
+6. Filtros
+Sección en la que podemos configurar los filtros que aplicamos. Se pueden aplicar a nivel de objeto o visualización, a nivel de página o a nivel de todo el fichero, de forma que nos modifica las visualizaciones acorde a los filtros aplicados.
+
+
+--- 
+
+Power Query es una tecnología de Microsoft que se utiliza junto con Power BI Desktop (y otras aplicaciones de Microsoft como Excel) para la transformación de datos (la "T" de un proceso ETL, por sus siglas en inglés: Extract, Transform, Load).
+Su función principal es preparar y dar forma a los datos de manera eficiente antes de ser utilizados en informes y análisis.
+Power Query permite conectarse a una amplia gama de datos y formatos:
+Una vez importados los datos, podemos limpiarlos o transformarlos según necesitamos, así como hacer consultas más complejas.Power Query tiene su propio entorno de trabajo, que deberás conocer para poder trabajar con datos con esta herramienta.
+Power Query tiene su propio entorno de trabajo, que deberás conocer para poder trabajar con datos con esta herramienta.
+
+---
+
+En Power BI, una medida es una fórmula o expresión creada utilizando el lenguaje DAX (Data Analysis Expressions) que realiza un cálculo sobre los datos del modelo. A diferencia de las columnas calculadas, que calculan un valor para cada fila en una tabla, las medidas realizan cálculos agregados sobre conjuntos de datos, proporcionando resultados únicos y resumidos.
+
+Las medidas son esenciales en Power BI por varias razones:
+
+1️⃣ Agregación de datos
+Las medidas permiten realizar cálculos de agregación sobre grandes conjuntos de datos. Pueden ser utilizadas para sumar, promediar, contar, o aplicar otras funciones agregadas a los datos.
+
+2️⃣ Análisis dinámico
+Las medidas se adaptan al contexto de visualización. Esto significa que responden a los filtros y a las interacciones en los informes, proporcionando resultados relevantes y dinámicos.
+
+3️⃣ Consolidación de la información
+Ayudan a consolidar información compleja en una única cifra o valor, facilitando la interpretación de los datos y mejorando la comprensión de los resultados.
+
+4️⃣ Flexibilidad en el modelado de datos
+Al trabajar con medidas, puedes crear cálculos personalizados que no están limitados a las funciones predeterminadas de Power BI. Esto ofrece flexibilidad para adaptar las métricas a las necesidades específicas del análisis.
+
+
+En Power BI, las medidas y los campos con el símbolo sumatorio (Σ) en las tablas comparten la funcionalidad de realizar cálculos, pero difieren en su aplicación y comportamiento.
+Mientras que las medidas se crean utilizando el lenguaje DAX y permiten realizar cálculos personalizados, así como son dinámicas y se adaptan al contexto de filtro en las visualizaciones...
+... los campos con el símbolo sumatorio (Σ) son columnas automáticamente generadas por Power BI cuando se arrastran columnas numéricas a la vista de datos. Estos campos son agregados automáticamente y representan la suma predeterminada de los valores en la columna correspondiente.
+Sólo puedes personalizar su valor con las opciones del despegable.
+
+Las medidas permiten mayor flexibilidad y personalización en los cálculos, mientras que los campos sumatorios son automáticamente generados y representan la suma básica de una columna.
+Las medidas son más poderosas en términos de análisis dinámico y expresión de lógica de negocio compleja.
+Los campos sumatorios son más directos y rápidos de aplicar para obtener una suma básica sin necesidad de escribir fórmulas.
+
+
+
+Crear visualizaciones en Power BI Desktop es fundamental para representar y comunicar de manera efectiva los datos.
+Una vez nos hayamos conectado a nuestras distintas fuentes datos, transformado y limpiado los datos y creado el modelo y relaciones entre tablas, podremos empezar a crear visualizaciones.
+En el panel "Visualizaciones" (a la derecha), selecciona el tipo de visualización que deseas usar. Algunas opciones comunes incluyen:
+• Gráficos de Barras (Bar Chart): Representan datos con barras horizontales o verticales.
+• Gráficos de Líneas (Line Chart): Muestran tendencias y cambios a lo largo del tiempo.
+• Gráficos de Pastel (Pie Chart): Muestran partes de un todo en forma de un círculo dividido.
+• Tablas (Table): Muestran datos en formato de tabla.
+• Mapas (Map): Visualizan datos geoespaciales.
+
+Aparecerá la visualización u objeto visual en blanco. Para indicarle los datos que debe utilizar pincharemos en los datos de las tablas que aparecen a la derecha o bien los arrastraremos a los campos que correspondan (Eje X, Eje Y, Leyenda, etc.)
+
+⚠️ Es importante entender bien los datos para utilizar el gráfico que mejor represente la información que queremos.
+Una vez creada la visualización, puedes configurar su aspecto, colores, etiquetas, fuente, etc. desde las opciones de visualizaciones
+En algunos gráficos puedes incluso utilizar varios campos para un mismo eje.
+
+
+Múltiples datos en un solo eje en Power BI
+Por ejemplo: En el eje Y se especifican cada una de las líneas de producción, mientras que en el eje X nos indicará el total de unidades producidas para dos turnos diferentes, que se representan en forma de barras agrupadas por cada una de las líneas de producción.

@@ -1,0 +1,38 @@
+Configuración básica
+Lo primero que tendremos que hacer es crear una cuenta en Landbot.
+https://app.landbot.io/gui/home
+Y elegir en la interfaz principal que tipo de Chatbot queremos, en nuestro caso vamos a crear uno enfocado en Web.
+
+El asistente de IA te permitirá realizar un esquema global de tu chatbot, pero en esta ocasión lo haremos desde 0 pulsando Start from scratch.
+También existe la opción de utilizar una plantilla propuesta por la plataforma.
+Nuestro punto de partida puede ser de distintas formas, en este caso Landbot tiene opciones predeterminadas que nos permitirán crear “starters” de nuestra conversación.
+Vamos a preguntar al usuario por su nombre.
+Si nos fijamos en la parte inferior, este dato, al ser respondido por el usuario se almacenará en una variable llamada name.
+Esta variable será como una caja que podremos consultar posteriormente para que el bot se refiera al usuario por su nombre una vez lo conozca.
+
+En cualquier punto de nuestra construcción podremos clicar en “Test this bot” y comprobar su funcionamiento real:
+
+Vamos a añadir un par de preguntas más, cada una con su almacenamiento en variables diferentes. En la última pregunta le vamos a preguntar sobre un destino turístico para proveer de información al usuario.
+
+Lo primero que vamos a hacer es lanzar Zapier y crear un nuevo Zap cuyo trigger sea la activación de un nuevo bloque de Landbot.
+Nos pedirá una API Key que encontraremos en nuestro avatar de Landbot, en Settings y abajo del todo para poder copiar y pegar.
+
+Una vez lo hayamos activado elegiremos nuestro bot:
+Volvemos a Landbot, y añadimos un bloque de Zapier teniendo en cuenta el ID de este bloque, no tenemos que tocar nada pero si tener en cuenta donde estamos colocándolo en el “camino” del bot. En este caso queremos que recoja todas las variables hasta el momento.
+
+Volvemos a Zapier y veremos como nos detecta el bloque:
+Si tenemos algun problema con la detección de información tendremos que clicar en Publish dentro de Landbot para que guarde correctamente los cambios.
+
+Una vez lo Publiquemos, podemos darle a “ver chatbot” y probarlo.
+
+Cuando lo hagamos y volvamos a Zapier a testear el paso veremos como Zapier nos detecta la información del chat llegados a ese punto.
+
+Entre otra información dada del navegador como la localización, el navegador o el tiempo en el que se hizo la consulta, tendremos nuestras variables completas.
+Si falta alguna podemos repasar cada uno de los pasos en Landbot para definirlos de nuevo o cambiarles los nombres.
+
+Con esta información, podremos pedirle a ChatGPT que nos escriba el cuerpo de un correo electrónico.
+Para terminar, podemos implementar el envío de un correo electrónico.
+Todo ello ocurrirá sin que el usuario perciba que esto es está ocurriendo, por lo que en cuestión de segundos, teniendo activada la automatización, se enviará automáticamente un correo electrónico al usuario cada vez que llegue al bloque de Zapier.
+Para terminar podemos implementar una evaluación y recibir un feedback que podremos controlar en la plataforma o incluso automatizar desde la misma.
+
+Si activamos un nuevo bloque de Google Sheets y tenemos una cuenta de pago, podremos volcar cualquier información que hayamos recogido durante la conversación en una hoja de cálculo, incluyendo la puntuación final.

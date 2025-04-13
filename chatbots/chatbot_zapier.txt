@@ -1,0 +1,49 @@
+Chatbot con Zapier
+Veamos como crear nuestro primer chatbot gracias a la plataforma Zapier paso a paso.
+
+Configuración básica
+Nuestro primer paso será crear un nuevo chatbot en la sección Chatbots de la plataforma:
+https://zapier.com/app/chatbots
+Si bien podemos utilizar bastantes plantillas de Chatbots pre-creados, crearemos uno desde 0 para ver cómo podemos y hasta donde customizar nuestros chatbots.
+
+En esta ventana nos encontraremos la interfaz completa de creación y edición del chatbot, donde podremos controlar cada uno de los parámetros del mismo y personalizarlo a nuestro gusto y necesidad.
+
+En la primera sección Greeting type podemos personalizar el saludo del Chatbot al iniciar una conversación, esta puede ser estática o generada mediante IA.
+Si customizamos nuestro mensaje de bienvenida y guardamos los cambios, veremos a la derecha en todo momento como se va a actualizando nuestra conversación de prueba con nuestro chatbot.
+
+En la sección User input placeholder podemos personalizar el mensaje orientativo en la caja de escritura del usuario para poder poner un ejemplo sobre una conversación.
+
+En la última sección podremos gestionar el modelo que utilizaremos de OpenAI, además de ajustar la creatividad y opciones avanzadas. Estos modelos estarán disponibles dependiendo de las cuentas que tengamos conectadas a la plataforma.
+
+---
+
+Instrucciones
+En la pestaña Instructions podremos indicarle las instrucciones pertinentes a nuestro chatbot siguiendo un formato recomendado en el ejemplo que nos proporciona.
+En planes avanzados podremos incluso incluirle ficheros de conocimiento y consulta para que tenga acceso a datos adicionales y de base.
+
+PROMPT: 
+# Rol: Eres un excepcional Chef Virtual. Posees un conocimiento profundo y habilidades en gastronomía.
+# Objetivo: Tu objetivo principal es proporcionar recetas de cocina detalladas y claras. Las preguntas serán sobre recetas específicas. Para lograr esto, debes seguir los siguientes pasos:
+Paso 1: Comienza preguntando una aclaración sobre el tipo de receta que el usuario desea, asegurándote de entender completamente sus necesidades o consulta.
+Paso 2: Después de cada respuesta, ofrece un recurso adicional o una pregunta que añada valor y mantenga al usuario interesado.
+# Audiencia: Interactuarás con personas que disfrutan cocinar en casa. Estos usuarios están principalmente interesados en aprender nuevas recetas y mejorar sus habilidades culinarias.
+# Estilo: Tu estilo de comunicación debe ser profesional, pero cercano y accesible. Siempre estructura tus respuestas con encabezados claros, puntos destacados y utiliza emojis cuando sea apropiado.
+# Otras Reglas: Si un usuario hace preguntas más allá del alcance de las recetas de cocina, no abordes estas consultas directamente. En su lugar, guíalos de vuelta a los temas que puedes asistir proporcionando una lista de temas o recursos relevantes.
+
+
+---
+
+Llegados a este punto, podemos guardar los cambios, iniciar una conversación con el chatbot y veremos como se ajusta a la perfección a nuestras necesidades.
+
+Acciones
+En la pestaña Actions podremos desatar diferentes acciones a través de nuestra conversación.
+Con planes avanzados podremos recuperar la información de los usuarios que hacen uso de nuestro chatbot, también podremos disparar acciones a través de Zap’s incluyendo automatizaciones en nuestro chatbot, podemos copiar la respuesta del usuario para que se envíe a cualquier otro servicio y también podemos darle algunas preguntas por defecto para guiarlos durante la conversación.
+En planes avanzados podemos customizar el aspecto visual de nuestro chatbot para que se ajuste a la plataforma donde lo utilicemos finalmente.
+Y por último, en la pestaña Conversations podremos controlar tanto las conversaciones generadas, como los mensajes recibidos y las acciones lanzadas en cada una de las interacciones con nuestro chatbot.
+
+Compartir el chabot
+Para compartir el chatbot y poderlo usar fuera del test de la plataforma haremos click en Share y utilizaremos la URL pública que nos genera Zapier. Esta URL pública se puede personalizar en cualquier momento desde la pestaña Setup. 
+Si hacemos uso de este chatbot fuera del entorno Zapier, ya podremos recopilar la información y realizar las acciones pertinentes que hemos configurado en Zapier.
+
+Además de esto, en planes avanzados podremos “emebeder” este chatbot para integrarlo en nuestra aplicación web o móvil a través de una URL personalizada que se añadirá al código de la misma.
+Junto a planes avanzados, como hemos mencionado, podremos customizarlo para que su apariencia encaje con nuestra aplicación e insertarlo en la misma.
