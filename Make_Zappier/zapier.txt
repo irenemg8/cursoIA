@@ -1,0 +1,36 @@
+Zap: Un flujo de trabajo automatizado en Zapier que conecta tus aplicaciones y realiza acciones automáticamente. Es decir, una automatización.
+
+Trigger (Disparador): El evento que inicia un Zap, como recibir un nuevo correo electrónico o una nueva entrada en una base de datos. Es el primer evento que tiene que existir en una automatización.
+
+Action (Acción): La tarea que se realiza después de que se activa el trigger, como enviar un correo electrónico o agregar una fila en una hoja de cálculo. Siempre tienen que ir tras un trigger o una acción.
+
+Task (Tarea): Cada acción que completa un Zap. Cada tarea consumida cuenta hacia el límite de tareas mensuales de tu plan en Zapier.
+
+Multi-Step Zap (Zap de Múltiples Pasos): Un Zap que realiza múltiples acciones a partir de un solo trigger. Podemos encadenar acciones entre si para que se disparen una detrás de otra.
+
+Zapier Editor: La interfaz de usuario para crear, editar y gestionar Zaps.
+
+App (Aplicación): Un servicio o plataforma que se integra con Zapier, como Gmail, Slack, o Salesforce. Podemos autenticar y enlazar nuestras aplicaciones externas en el panel Apps.
+
+Template (Plantilla): Un Zap pre-configurado que puedes utilizar como base para crear un nuevo Zap, optimizado para casos de uso comunes. Estas plantillas normalmente están creadas por Zapier o por petición de la comunidad de usuarios.
+
+Filter (Filtro): Un paso en un Zap que verifica ciertas condiciones antes de ejecutar una acción, similar a un condicional en programación. Si se cumple una condición dejará pasar al siguiente paso, si no: no.
+
+Path (Ruta): Similar a una declaración "if-else" en programación, permite que un Zap ejecute diferentes acciones basadas en diferentes condiciones. Por ejemplo, si recibimos un correo en la bandeja X ejecutaremos ciertas acciones y si la recibimos en Y ejecutaremos otras diferentes.
+
+Webhooks: Herramientas para enviar y recibir datos entre Zapier y otras aplicaciones a través de solicitudes HTTP personalizadas. Es la manera más directa de conectar datos de aplicaciones externas.
+
+Formatter (Formateador): Una utilidad en Zapier que permite transformar, ajustar y formatear datos antes de pasarlos a otra acción. Por ejemplo, que una fecha en formato ISO nos la devuelva de una forma legible al ser humano.
+
+Data Mapping (Mapeo de Datos): Asignar datos de una aplicación a otra dentro de un Zap, asegurando que los datos se transmitan correctamente entre diferentes campos de aplicaciones. De esta forma podemos recuperar los datos, por ejemplo, de un correo electrónico diferenciando el cuerpo del correo, el asunto, el emisor, el receptor, etc…
+
+Looping: Una característica avanzada que permite a Zapier procesar listas de datos ejecutando acciones repetitivas, como enviar múltiples correos electrónicos o procesar filas de una hoja de cálculo. Podemos diseñar una tarea que se ejecute en bucle hasta terminar con el listado de datos. Por ejemplo, que formatee la fecha de los correos electronicos de la bandeja de entrada mediante un listado de correos. De esa forma lo hará por cada uno de ellos.
+
+Delay (Retardo): Un componente que puede pausar la ejecución de un Zap por un tiempo determinado o hasta una fecha y hora específicas. Por ejemplo, en el caso de un chatbot podemos retrasar la respuesta un minuto para que el usuario termine de completar la solicitud o enviar una acción pasado x tiempo para comprobar si se sigue ejecutando o no la acción.
+
+Premium Apps: Aplicaciones que solo están disponibles para planes pagos en Zapier. Estas aplicaciones ofrecen funcionalidades más avanzadas o especializadas.
+
+Zap History (Historial de Zaps): Un registro de todas las ejecuciones pasadas de un Zap, incluyendo información sobre si fueron exitosas, qué datos se procesaron y cualquier error que ocurrió.
+
+API Key (Clave API): Un método de autenticación utilizado para conectar aplicaciones seguras con Zapier, proporcionando un nivel de seguridad al compartir datos. Si necesitamos una capa más de seguridad, Zapier nos proporciona una clave única para que solo el usuario de Zapier pueda realizar las automatizaciones propuestas.
+

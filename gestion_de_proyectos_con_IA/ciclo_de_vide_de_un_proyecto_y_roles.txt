@@ -1,0 +1,33 @@
+Fases y los posibles roles de gestión asociados:
+
+Exploración ("¿Qué?")
+En esta fase inicial, se identifica la necesidad o problema que el proyecto busca resolver. Se explora la viabilidad del proyecto y su alineación con las estrategias empresariales.
+
+Roles Principales: Analista de Negocio, Investigador de Mercado, Estratega Empresarial.
+
+---
+
+Movilización ("¿Cómo? ¿Quién? Roadmap")
+Se refiere a la planificación detallada del proyecto, donde se define cómo se abordará el proyecto, quién estará involucrado y se desarrolla una hoja de ruta (roadmap) para la implementación.
+
+Roles Principales: Gerente de Proyecto, Planificador de Proyecto, Equipo de Planificación.
+
+---
+
+Ejecución
+Es la fase de implementación, donde las tareas y actividades definidas en la fase de movilización se llevan a cabo para cumplir con los objetivos del proyecto.
+
+Roles Principales: Líderes de Equipo, Especialistas Técnicos, Gestores de Operaciones.
+
+---
+
+Entrega
+La última fase es la entrega o conclusión del proyecto. Aquí se finalizan los entregables, se cierra el proyecto y se evalúa su éxito.
+
+Roles Principales: Gerente de Calidad, Equipo de Aseguramiento de Calidad, Cliente o Patrocinador del Proyecto.
+
+
+
+El término "building blocks" en la base sugiere que hay elementos fundamentales o componentes esenciales que respaldan cada una de estas fases. Estos podrían incluir principios de gestión de proyectos, metodologías, herramientas y técnicas que son cruciales para el éxito del proyecto en todas las etapas de su ciclo de vida.
+
+Cada fase del proyecto se construye sobre la base de estos bloques fundamentales, asegurando que el proceso de gestión sea coherente y sólido desde la concepción hasta la finalización del proyecto.

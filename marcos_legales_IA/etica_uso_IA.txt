@@ -1,0 +1,41 @@
+Documentación
+
+General info: 
+Responsible AI Resources – Microsoft AI https://www.microsoft.com/en-us/ai/tools-practices
+
+RAI standard v2: 
+Microsoft-Responsible-AI-Standard-v2-General-Requirements-3.pdf
+
+Assessment: 
+Microsoft-RAI-Impact-Assessment-Guide.pdf
+Dashboard:Responsible AI Dashboard Components - Microsoft Responsible AI (responsibleaitoolbox.ai) https://responsibleaitoolbox.ai/introducing-responsible-ai-dashboard/
+
+Repository:
+GitHub - microsoft/responsible-ai-toolbox: This project provides responsible AI user interfaces for Fairlearn, interpret-community, and Error Analysis, as well as foundational building blocks that they rely on.
+https://github.com/microsoft/responsible-ai-toolbox
+
+
+La ética en el uso de la Inteligencia Artificial (IA) es un campo de estudio y debate crítico que aborda las preocupaciones morales y éticas asociadas con el desarrollo y la implementación de tecnologías de IA. A medida que la IA se vuelve más prevalente en diversos aspectos de la vida cotidiana y empresarial, surgen importantes cuestiones éticas que deben ser consideradas y abordadas. Algunas de estas cuestiones incluyen:
+
+Sesgo y Discriminación
+Existe el riesgo de que los sistemas de IA reflejen o incluso amplifiquen los sesgos existentes en los datos de entrenamiento, lo que puede llevar a resultados discriminatorios en áreas como la contratación, el crédito, la atención médica y la justicia penal. La ética de la IA implica esfuerzos para identificar, prevenir y corregir estos sesgos.
+
+Privacidad y Seguridad de los Datos
+La IA a menudo requiere el acceso a grandes volúmenes de datos, algunos de los cuales pueden ser personales o sensibles. La gestión ética de estos datos, incluyendo su recopilación, almacenamiento y uso, es fundamental para proteger la privacidad y seguridad de los individuos.
+
+Transparencia y Explicabilidad
+Muchos modelos de IA, especialmente los basados en aprendizaje profundo, son complejos y opacos, lo que dificulta entender cómo llegan a ciertas decisiones o predicciones. La ética de la IA aboga por sistemas más transparentes y explicables para fomentar la confianza y la rendición de cuentas.
+
+Responsabilidad y Responsabilización
+Determinar quién es responsable de las decisiones tomadas por un sistema de IA es un desafío ético clave. Esto incluye abordar las cuestiones de responsabilidad legal y moral en caso de errores o daños causados por decisiones automatizadas.
+
+Impacto en el Empleo y la Economía
+La IA tiene el potencial de automatizar un amplio rango de trabajos, lo que plantea preocupaciones sobre la pérdida de empleo y las desigualdades económicas. La ética en la IA considera cómo se pueden mitigar estos impactos y asegurar que los beneficios de la IA sean ampliamente distribuidos.
+
+Uso Malintencionado
+La IA puede ser utilizada para propósitos nefastos, incluyendo la creación de desinformación (como deepfakes), vigilancia invasiva, y armamento autónomo. Abordar estas cuestiones implica establecer límites éticos claros en el uso de la IA.
+
+Impacto Social y Humano
+Más allá de los aspectos técnicos, la IA tiene implicaciones profundas en la sociedad y en la interacción humana. La ética de la IA debe considerar cómo estas tecnologías afectan el bienestar humano, las relaciones sociales, y los valores culturales.
+
+Para abordar estas preocupaciones éticas, se han propuesto diversos marcos y principios éticos, y muchas organizaciones e instituciones están implementando pautas éticas para el desarrollo y uso de la IA. Además, la colaboración entre desarrolladores de IA, legisladores, expertos en ética y el público en general es crucial para asegurar que la IA se desarrolle y utilice de manera responsable y beneficiosa para la sociedad.

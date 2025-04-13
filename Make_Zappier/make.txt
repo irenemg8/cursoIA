@@ -1,0 +1,44 @@
+Scenario (Escenario): Es el corazón de Make, donde defines un conjunto de acciones automatizadas que ocurren entre dos o más aplicaciones o servicios. Piensa en ello como una receta que detalla qué sucederá automáticamente cuando se cumplan ciertas condiciones.
+
+Module (Módulo): Cada paso en un escenario. Puede ser un trigger, una acción, o simplemente un paso de procesamiento de datos. Cada módulo cumple una función específica, como activar el escenario, realizar una tarea o decidir qué hacer con los datos.
+
+Trigger: Este es el inicio de tu escenario. Actúa como un sensor que detecta cuando ocurre algo en una de tus aplicaciones. Por ejemplo, recibir un nuevo correo electrónico en tu cuenta o una nueva entrada en tu calendario.
+
+Action: Estas son las respuestas automatizadas a tus triggers. Si un trigger es el "si esto ocurre", una acción es el "entonces haz esto". Por ejemplo, si recibes un nuevo pedido en tu tienda, una acción podría ser enviar automáticamente una factura al cliente.
+
+Router: Un componente que permite dirigir el flujo de datos a diferentes caminos según ciertas condiciones. Es como un cruce de caminos donde puedes tomar diferentes direcciones basadas en lo que necesitas lograr.
+
+Iterator: Este módulo te permite trabajar con listas de elementos, procesando cada elemento de la lista de forma individual. Es útil, por ejemplo, para enviar correos electrónicos personalizados a una lista de contactos. Dentro de iterator encontrarás el termino array, que corresponde al listado de elementos mencionado.
+
+Aggregator: Funciona de manera opuesta al iterator. Toma múltiples entradas y las combina en una salida consolidada. Por ejemplo, podrías sumar varias cifras para obtener un total.
+
+Data Store: Una característica para almacenar datos que puedes necesitar más adelante en tu escenario o en otros escenarios. Funciona como una memoria o almacenamiento temporal.
+
+Webhooks: Estas acciones son avanzadas y te permiten integrar servicios que no están directamente disponibles en Make. Funcionan enviando o recibiendo datos a través de Internet en respuesta a eventos.
+
+Operations (Operaciones): Cada acción que se ejecuta en un módulo durante el escenario. Importante para gestionar ya que cada plan en Make tiene un límite de operaciones mensuales. Se refleja en los números de las burbujas encima de los modulos.
+
+Mapping Panel (Panel de Mapeo): Aquí es donde conectas los datos de una aplicación a otra, asegurándote de que la información se pase correctamente.
+
+Filter (Filtro): Te permite especificar condiciones bajo las cuales un módulo deberá o no ejecutarse. Es como establecer reglas para decidir si avanzar con una acción. Por ejemplo, solo va a ocurrir si el asunto de un correo tiene contenido y no está vacío.
+
+Bundles: Son paquetes de datos que se procesan juntos. En un escenario de correo electrónico, por ejemplo, un bundle podría incluir el destinatario, el asunto, y el cuerpo del mensaje.
+
+Error Handler: Un sistema para gestionar errores. Define lo que sucede si un módulo falla, como reintentar la acción o enviar una notificación de error.
+
+Templates: Plantillas predefinidas que puedes usar como punto de partida para tus escenarios. Son útiles para entender cómo se pueden conectar y automatizar aplicaciones comunes.
+
+API Key (Clave API): Un método de autenticación que permite a Make comunicarse de forma segura con otras aplicaciones.
+
+HTTP/SOAP Request Module: Este módulo te permite interactuar con otros servicios web, enviando y recibiendo datos. Es muy flexible y puede usar diferentes métodos como GET (obtener datos), POST (enviar datos), PUT (actualizar datos) o DELETE (eliminar datos).
+
+JSON: Un formato estándar para intercambiar datos entre sistemas. Esencial para estructurar los datos que envías o recibes a través de Make.
+
+OAuth: Un protocolo que permite autorizar a Make para acceder a tus aplicaciones sin compartir tus contraseñas directamente.
+
+Rate Limit: Refiere al número máximo de veces que un módulo puede ejecutarse en un período determinado, importante para evitar exceder los límites de uso de API externas.
+
+Log (Registro): Un historial detallado de la actividad de tus escenarios, que muestra qué datos se han procesado, cuándo y si hubo errores.
+
+Schedule (Programación): Te permite configurar cuándo se ejecutarán tus escenarios, ya sea en intervalos regulares o en momentos específicos.
+

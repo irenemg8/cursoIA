@@ -1,0 +1,75 @@
+Nosotros emplearemos una estructura de bloques que dividiremos en tipos:
+
+1. Bloques básicos
+Estos bloques son imprescindibles ya que en ausencia de ellos el modelo no sabrá qué queremos y se lo inventará o nos preguntará.
+· Instrucción o tarea: Lo que queremos que haga. Comenzar siempre con un verbo de acción (genera, proporciona, escribe, analiza, etc) Puede ser una sola tarea simple (recomendable) o una multitarea compleja con varios pasos.
+· Contexto: Condiciones específicas que describen la situación y sean relevantes para la tarea.
+
+
+2. Bloques recomendados
+Bloques que recomendamos incluir para ser más específicos.
+· Ejemplos o framework: Ayuda a guiar cómo queremos que nos responda.
+· Rol: Su rol por defecto es un asistente útil, por lo que no suele ser necesario. Sin embargo, si queremos hilar más fino podemos asignarle un rol “actúa como…” o “eres un experto en…” para mejores resultados
+· Formato: Tabla, bullet points, código, con encabezados H1, H2, H3, etc.
+· Estilo: Formal, informal, persuasivo, etc. Por defecto defecto es neutral, claro e informativo. También podemos seleccionar voz (1a, 2a, 3a persona, 1a plural). Si nos gusta un estilo, podemos pedir que lo replique o describa. No es necesario especificar estilo si nos vale el por defecto, aunque también se va a adaptar al contexto.
+
+
+3. Bloques adicionales
+El contexto puede ser dividido de muchas formas. Podemos añadir tanta información como queramos. Otros bloques que podemos utilizar son:
+· Plantilla: [parte 1], [parte 2], [parte 3], etc.
+· Longitud: Cuántas palabras queremos que tenga. No funciona perfecto pero es mejor dar un número que una descripción con adjetivos.
+· Prompt negativo: Palabras o conceptos a evitar.
+· Multiplicador: Número de veces que queramos que genere o haga una tarea.
+· Otros: No hay unos bloques concretos o específicos, crea aquellos que consideres adecuados.
+
+
+
+----
+
+
+
+Construir nuestros prompts de forma conversacional tiene grandes ventajas
+· Nuestra forma de interacción natural es tener una conversación.
+· A veces no tenemos claro desde el principio lo que queremos o necesitamos, por lo que podemos continuar la conversación para ganar claridad.
+· Nos facilita las cosas ya que no tenemos que elaborar un prompt perfecto desde cero.
+· Al construir prompts complejos nuestras instrucciones pueden ser incompatibles entre sí. Construir los prompts de esta forma nos permite depurarlos más fácilmente.
+· Aunque un prompt extenso y complejo pueda funcionar, a veces es adecuado descomponer las tareas en varios pasos más sencillos y ser ejecutados en diferentes prompts.
+· En la interacción con los LLM es poco realista esperar una respuesta perfecta a la primera de forma consistente.
+
+
+Lo ideal es realizar iteraciones y refinando poco a poco nuestras creaciones hasta obtener prompts que nos generen resultados adecuados de forma consistente.
+
+Si hemos obtenido un buen resultado tras la conversación podemos combinar todo en un único prompt.
+Incluso podemos utilizarlo de plantilla más adelante si así lo vemos adecuado.
+
+La decisión “final” de si utilizar varios prompts en una secuencia o combinarlo todo en un único prompt es personal.
+Determinar lo más adecuado depende mucho del caso que estamos tratando por lo que se basa en prueba y error.
+
+
+
+----
+
+
+
+Dos bloques que funcionan muy bien y pueden ser identificados como técnicas en sí mismos son cadena de pensamiento y few-shot.
+Los LLM están mejorando cada vez más, por lo que la necesidad de utilizar estas técnicas se ha reducido. Sin embargo, para tareas más complejas, puede ser apropiado recurrir a ellas.
+Puedes utilizarlas como elemento añadido que pueda ayudar a generar una mejor respuesta. Por ejemplo, si notamos que la IA no te está entendiendo, o cuando quieras imponer una estructura, lógica de pensamiento o framework.
+
+
+1. Cadena de pensamiento
+La cadena de pensamiento o Chain of Thought (CoT) consiste en resolver un problema analizando los pasos que se deben llevar a cabo.
+El CoT puede ser muy útil cuando queramos incorporar alguna lógica de pensamiento o pasos a seguir concretos.
+Una forma alternativa y muy útil de utilizar la cadena de pensamiento es pedirle al chat que no sólo proporcione una respuesta sino que explique de forma explícita los pasos que está llevando a cabo para elaborarla.
+Si no queremos o no sabemos los pasos a seguir, podemos añadir “piensa paso a paso” para que aplique su propia cadena de pensamiento. Los modelos más poderosos ya lo suelen hacer por defecto, pero puede ayudar a obtener mejores resultados. Esto se conoce como 0-shot CoT.
+
+
+2. Few-shot
+Few-shot consiste en proporcionar ejemplos para ayudar al modelo a entender lo que queremos que haga.
+Si no damos ningún ejemplo, generalmente se llama Zero-shot, un ejemplo es One-shot, 4 ejemplos es 4-shot, etc. Más de uno generalmente se llama few-shot, mientras que muchos ejemplos se conoce como many-shot.
+Cada vez es menos necesario, pero en algunos casos puede ser útil utilizar uno o más ejemplos. Cuantos más ejemplos utilicemos, más “entrenamos” al modelo para nuestra tarea específica.
+Un gran uso de few-shot es la categorización de información cuando queramos un formato muy específico de forma consistente.
+
+
+3. Frameworks
+Es una técnica mixta que se puede considerar una mezcla entre CoT y One-Shot ya que consiste en guiar al modelo siguiendo una metodología específica, proporcionando así una estructura base de ejemplo y/o pasos a seguir en la elaboración de la respuesta.
+

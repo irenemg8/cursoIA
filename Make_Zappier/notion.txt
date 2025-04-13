@@ -1,0 +1,30 @@
+Base de Datos: En Notion, esto se refiere a colecciones de datos estructurados que pueden ser visualizados y manipulados de múltiples formas (tablas, listas, galerías, etc.). Sirven como el fundamento para organizar y almacenar información relacionada.
+
+Propiedades (Fields): Campos de información dentro de las bases de datos de Notion. Pueden ser de tipos variados como texto, número, fecha, personas, archivos, enlaces, y más, cada uno con un propósito específico para almacenar diferentes tipos de datos.
+
+Relaciones (Relations): Permiten vincular bases de datos entre sí en Notion, similar a las relaciones en bases de datos SQL. Facilitan la conexión entre diferentes conjuntos de datos, como enlazar tareas con proyectos o empleados con sus departamentos.
+
+Rollup: Una propiedad en Notion que permite mostrar información de las relaciones. Por ejemplo, podrías sumar todos los gastos de varios proyectos relacionados o contar cuántos elementos están asociados a una categoría específica.
+
+Vistas (Views): Diferentes maneras de visualizar datos dentro de una base de datos en Notion. Incluyen vistas de tabla, calendario, kanban, lista y galería, cada una proporcionando un enfoque único para interactuar con los datos.
+
+Filtrado y Ordenamiento: Funciones para controlar la presentación de datos en Notion, permitiendo a los usuarios mostrar solo aquellos registros que cumplan ciertos criterios o que estén ordenados de acuerdo a ciertas propiedades.
+
+Fórmulas: En Notion, se pueden utilizar fórmulas para crear cálculos personalizados basados en los datos de las propiedades. Estas fórmulas pueden incluir operaciones matemáticas, texto, y funciones lógicas para automatizar cálculos y análisis.
+
+Automatizaciones: Notion admite automatizaciones internas y externas mediante integraciones. Las automatizaciones pueden incluir la creación de tareas recurrentes, la actualización de propiedades basadas en ciertos disparadores y la sincronización con otros servicios.
+
+Widgets: En el contexto de Notion, esto podría referirse a elementos integrados como mapas, vídeos, widgets de clima, o integraciones con otras aplicaciones que enriquecen las páginas de Notion.
+
+Páginas y Subpáginas: La estructura organizativa básica de Notion, donde cada página puede contener datos, texto, imágenes, y otras páginas. Las subpáginas permiten una organización jerárquica y detallada del contenido.
+
+Integración de terceros: La capacidad de Notion para conectarse con aplicaciones externas, extendiendo la funcionalidad de las bases de datos y las páginas a través de APIs y servicios como Zapier, Typeform, Google Drive, etc.
+
+Template (Plantillas): En Notion, las plantillas son configuraciones preestablecidas que se pueden reutilizar para crear nuevas páginas o bases de datos rápidamente. Ayudan a estandarizar la estructura de los documentos y la organización de los datos.
+
+Markdown: Notion soporta el uso de Markdown para la edición de texto, permitiendo a los usuarios utilizar sintaxis simple para formatear texto, crear listas, enlaces, y más, facilitando la edición rápida y eficiente. Notion escribe en Markdown automáticamente.
+
+API (Interfaz de Programación de Aplicaciones): Aunque Notion ha sido tradicionalmente cerrado en términos de API pública, recientemente ha lanzado una que permite a los desarrolladores interactuar con la plataforma, extendiendo aún más las posibilidades de integración y automatización.
+
+Webhooks: Aunque no nativamente soportados por Notion, pueden ser utilizados a través de integraciones externas para enviar datos automáticamente a otros servicios en respuesta a eventos en Notion.
+

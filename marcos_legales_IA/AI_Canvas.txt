@@ -1,0 +1,24 @@
+El "AI Canvas" es un marco o herramienta conceptual diseñada para ayudar a las empresas y organizaciones a planificar y implementar soluciones de inteligencia artificial (IA) de manera efectiva. Fue desarrollado por Ajay Agrawal, Joshua Gans, y Avi Goldfarb, autores del libro "Prediction Machines". El AI Canvas sirve para estructurar el pensamiento en torno a cómo y dónde la IA puede agregar valor a una empresa, centrándose en siete componentes clave:
+
+Predicción
+En el centro del AI Canvas está la idea de que la IA es fundamentalmente una herramienta de predicción. Se define el problema o la tarea que la IA debe predecir.
+
+Juicio
+Determina quién tomará las decisiones basadas en las predicciones de la IA. Incluso con predicciones avanzadas, a menudo se requiere juicio humano para interpretar y actuar sobre estos datos.
+
+Acción
+Define las acciones que se tomarán una vez realizada la predicción. Esto puede incluir decisiones automatizadas o recomendaciones para la acción humana.
+
+Resultados
+Identifica los resultados deseados de estas acciones y cómo se medirán. Esto es crucial para entrenar y ajustar los modelos de IA.
+
+Datos de Entrenamiento
+Especifica los datos que se utilizarán para entrenar el modelo de IA. Estos deben ser relevantes para el problema de predicción y suficientemente amplios para construir un modelo preciso.
+
+Datos de Retroalimentación
+Refiere a los datos que se generan a partir de las acciones tomadas y los resultados obtenidos. Estos datos son usados para mejorar continuamente el modelo de IA.
+
+Intervenciones
+Considera las intervenciones necesarias para garantizar que el sistema funcione como se espera. Esto puede incluir mantenimiento del modelo, actualizaciones, y ajustes en respuesta a cambios en el entorno o en los datos.
+
+El AI Canvas es efectivo para clarificar cómo se puede aplicar la IA en un contexto empresarial específico. Ayuda a identificar dónde la IA puede agregar más valor, qué recursos se necesitarán, cómo se integrará con los procesos existentes, y cómo se medirá el éxito de la implementación de IA. Al abordar sistemáticamente cada uno de estos componentes, las organizaciones pueden desarrollar una estrategia de IA más coherente y efectiva.

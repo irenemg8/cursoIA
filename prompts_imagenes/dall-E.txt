@@ -1,0 +1,66 @@
+Dall-E
+https://www.bing.com/images/create
+
+Fortalezas
+1️⃣ Es muy accesible para todos los públicos, incluso de forma gratuita, es fácil de utilizar y genera todo tipo de imágenes de buena calidad. ✅
+2️⃣ Fue el primer modelo capaz de introducir texto legible y con sentido en las imágenes. ✅
+3️⃣ Es un modelo que es capaz de respetar muy bien prompts relativamente complejos, siendo capaz de introducir en la imagen conceptos complejos en muchas ocasiones. ✅
+4️⃣ Es el modelo que tiene más conocimientos sobre cultura popular, lo que permite crear imágenes inspiradas en gran cantidad de personajes con relativa facilidad y fidelidad, siempre que se respeten los derechos de copyright correspondientes.. ✅
+
+
+Debilidades
+1️⃣ Foto realismo: no es el mejor modelo para conseguir imágenes foto realistas, aunque no hace un mal trabajo en algunas ocasiones. ❌
+2️⃣ Relación de aspecto: tiene poca variedad con únicamente 3 opciones disponibles. ❌
+3️⃣ Copyright: es más precavido que otros modelos en cuanto a posibles violaciones de copyright, lo que limita algunos tipos de imágenes a generar. ❌
+4️⃣ Rapidez: los tiempos de generación de imágenes son más lentos que otros modelos. ❌
+
+
+
+---- 
+
+
+En este caso hemos utilizado el siguiente prompt
+
+Quiero introducir un parámetro en mis generaciones de imágenes. 
+Este parámetro se llamará RAREZA y tomará valores del 0 al 1, 
+donde 0 es una imagen completamente normal sin nada extraño 
+mientras que un valor de 1 hará referencia a imágenes muy 
+excéntricas y surrealistas.
+
+
+---- 
+
+
+Podemos crear una plantilla para explorar diferentes conceptos de la siguiente forma.
+Quiero introducir un parámetro en mis generaciones de imágenes. 
+Este parámetro se llamará [NOMBRE] y tomará valores [RANGO], 
+donde [VALOR MÍNIMO] es una imagen [DESCRIPCIÓN] mientras que 
+un valor de [VALOR MÁXIMO] hará referencia a imágenes [DESCRIPCIÓN].
+
+
+---- 
+
+
+Aquí tienes la primera plantilla utilizada como ejemplo
+Rellena la siguiente plantilla con 3 ejemplos de prompts que tengan sentido: Casa isométrica 3D, sobre fondo blanco, con [descripción de la casa], en el estilo de [estilo de la casa], [color1] y [color2], diseño meticuloso y de calidad
+
+
+----
+
+
+Aquí tienes la segunda plantilla
+Rellena la siguiente plantilla con 3 ejemplos de prompts que tengan sentido. Sujeto 1 y Sujeto 2 deben ser elementos sin nada en común: Crea una ilustración minimalista de una silueta prominente de [Sujeto 1] sin contorno. La forma de la silueta debe estar formada por múltiples siluetas más pequeñas de [Sujeto 2], cada una siendo distinta pero simple en diseño. Toda la composición debe estar en una paleta de [Color]. Es importante que no haya contorno.
+
+
+----
+
+
+Aquí tienes la tercera plantilla
+Rellena la siguiente plantilla con 3 ejemplos de prompts que tengan sentido. Color debe ser un color adecuado según la fruta: Crea una ilustración minimalista de una silueta prominente de una bicicleta sin contorno. La forma de la silueta debe estar formada por múltiples siluetas más pequeñas de [fruta], cada una siendo distinta pero simple en diseño. Toda la composición debe estar en una paleta de [color]. Es importante que no haya contorno.
+
+
+----
+
+
+Y por último, la cuarta plantilla
+Rellena esta plantilla 3 veces con elementos que tengan sentido: Una fotografía ultra realista de un [animal] de pie sobre una mano humana, sosteniendo un diminuto [instrumento musical] en su boca. El cuerpo del [animal] está detallado con [detalles]. El [instrumento] está delicadamente sujetado por la boca del [animal], que parece estar tocando. La mano tiene una textura con poros visibles y ligeras arrugas, sosteniendo cuidadosamente al [animal]. El fondo está suavemente desenfocado para centrar la atención en el sujeto, con una iluminación natural suave que realza la escena. Capturada con un objetivo macro para un alto nivel de detalle, poca profundidad de campo y calidad de alta definición.

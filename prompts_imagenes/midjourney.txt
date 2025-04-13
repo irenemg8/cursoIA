@@ -1,0 +1,26 @@
+Veamos algunos de los principales y más útiles
+Relación de aspecto: --aspect o --ar
+Estilización: --stylize o --s
+Variedad: --chaos o --c
+Rareza: --weird o --w
+Modo "crudo": --style raw
+Versión: --version o --v
+Personalización: --personalize o --p
+
+
+Podemos agilizar la generación de imágenes en Midjourney con las siguientes funciones
+El parámetro --repeat nos permite ejecutar un mismo prompt varias veces de una sola vez.
+El comando permutación tiene el mismo efecto, pero modificando partes del prompt y ejecutando diferentes versiones simultáneamente: {prompt 1, prompt 2}
+
+
+https://docs.midjourney.com/hc/en-us/articles/32040250122381-Image-Prompts
+
+
+En Midjourney puedes usar imágenes como referencias para influir el estilo o la estética de las imágenes que deseas generar. 
+Para ello, podemos utilizar los parámetros --sref y --sw
+
+
+En Midjourney puedes usar imágenes como referencias de personajes en tu prompt para crear imágenes del mismo personaje en diferentes situaciones.
+Para ello, podemos utilizar los parámetros --cref y --cw.
+
+

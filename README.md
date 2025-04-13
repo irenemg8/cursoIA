@@ -117,3 +117,39 @@ Automatización de Tareas de Marketing: Integrar con plataformas de IA que optim
 Gestión de Datos y Análisis Predictivo: Conectar con herramientas que pueden analizar grandes volúmenes de datos para predecir tendencias o comportamientos de clientes, lo que puede ser útil para la toma de decisiones empresariales.
 
 Chatbots e Interfaces Conversacionales: Integrar servicios de IA que permiten la creación y gestión de chatbots para automatizar la atención al cliente o la recopilación de datos a través de interfaces conversacionales.
+
+
+
+# Código abierto
+## Stable Diffusion
+## Flux
+
+
+# Privados
+## Dall-E
+https://www.bing.com/images/create
+
+### Fortalezas
+
+1️⃣ Es muy accesible para todos los públicos, incluso de forma gratuita, es fácil de utilizar y genera todo tipo de imágenes de buena calidad. ✅
+
+2️⃣ Fue el primer modelo capaz de introducir texto legible y con sentido en las imágenes. ✅
+
+3️⃣ Es un modelo que es capaz de respetar muy bien prompts relativamente complejos, siendo capaz de introducir en la imagen conceptos complejos en muchas ocasiones. ✅
+
+4️⃣ Es el modelo que tiene más conocimientos sobre cultura popular, lo que permite crear imágenes inspiradas en gran cantidad de personajes con relativa facilidad y fidelidad, siempre que se respeten los derechos de copyright correspondientes.. ✅
+
+### Debilidades
+
+1️⃣ Foto realismo: no es el mejor modelo para conseguir imágenes foto realistas, aunque no hace un mal trabajo en algunas ocasiones. ❌
+
+2️⃣ Relación de aspecto: tiene poca variedad con únicamente 3 opciones disponibles. ❌
+
+3️⃣ Copyright: es más precavido que otros modelos en cuanto a posibles violaciones de copyright, lo que limita algunos tipos de imágenes a generar. ❌
+
+4️⃣ Rapidez: los tiempos de generación de imágenes son más lentos que otros modelos. ❌
+
+
+## Firefly
+## Midjourney
+## Ideogram

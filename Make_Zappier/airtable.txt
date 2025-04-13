@@ -1,0 +1,26 @@
+Base de Datos: En Airtable, una base de datos se organiza como un "workspace" o espacio de trabajo que puede contener múltiples tablas. Cada tabla funciona como una base de datos independiente, con la capacidad de almacenar, organizar y manipular datos relacionados.
+
+Tablas: Cada tabla en Airtable representa un conjunto de datos similar a una hoja en una hoja de cálculo, pero con capacidades de base de datos más robustas. Pueden contener diferentes tipos de campos y se pueden enlazar entre sí para relacionar datos.
+
+Campos (Fields): Los campos en Airtable son equivalentes a las columnas en una hoja de cálculo y pueden ser de diversos tipos como texto, número, fecha, selección múltiple, adjuntos, y más. Cada campo está diseñado para almacenar un tipo específico de dato.
+
+Vistas (Views): Airtable permite múltiples vistas para cada tabla, como la vista de cuadrícula (similar a una hoja de cálculo), calendario, kanban, y galería. Cada vista puede ser personalizada con diferentes filtros y agrupaciones para adaptarse a necesidades específicas.
+
+Relaciones (Linked Records): Airtable permite crear enlaces entre tablas, similar a las relaciones de clave foránea en las bases de datos SQL. Esto es crucial para mantener la integridad de los datos y facilitar conexiones entre diferentes conjuntos de datos.
+
+Rollups: Un tipo de campo que utiliza datos de tablas enlazadas para realizar cálculos o resúmenes, como sumas, promedios, o conteos. Los rollups son poderosos para el análisis de datos y reportes.
+
+Automatizaciones: Airtable ofrece automatizaciones que permiten a los usuarios crear flujos de trabajo personalizados que se activan con eventos específicos dentro de la base de datos, como cambios en los datos, tiempos específicos, o via webhooks.
+
+Fórmulas: Al igual que en las hojas de cálculo, Airtable permite el uso de fórmulas para calcular nuevos datos a partir de los existentes en otros campos. Las fórmulas pueden ser simples o complejas, incluyendo funciones lógicas y matemáticas.
+
+Integraciones (Apps): Airtable se integra con una variedad de aplicaciones y servicios externos a través de su propia galería de apps y conexiones como Zapier. Esto permite extender la funcionalidad de las bases de datos para incluir funcionalidades como envío de emails, generación de documentos, y más.
+
+Blocks: Antes conocidos como "blocks", ahora parte de Airtable Apps, permiten a los usuarios agregar funcionalidades personalizadas a sus bases de datos, como mapas, gráficos, y herramientas de importación/exportación.
+
+Scripts: Airtable permite a los usuarios escribir scripts personalizados dentro de su interfaz de scripting para automatizar tareas más complejas y personalizar el comportamiento de la base de datos.
+
+Snapshots: Fotografías o copias de seguridad de una base de datos en un momento específico, útiles para la revisión histórica o para recuperar datos antes de un cambio significativo.
+
+Permissions: Airtable ofrece un sistema de permisos detallado que permite controlar el acceso a nivel de workspace, base, tabla, e incluso vista, asegurando que los datos solo sean accesibles para usuarios autorizados.
+
