@@ -1,0 +1,18 @@
+Introducción al Aprendizaje por Refuerzo
+¡Bienvenidos al emocionante mundo del Aprendizaje por Refuerzo! Aquí, las máquinas aprenden de la mejor manera posible: ¡a través de la experiencia!
+
+¿Qué es el Aprendizaje por Refuerzo?
+Imagina que estás enseñando a un perro a realizar trucos. Si hace algo bien, recibe una golosina. Si no, no pasa nada. El Aprendizaje por Refuerzo funciona igual, pero con máquinas en lugar de perros.
+
+El Proceso de Aprendizaje
+En este tipo de aprendizaje, la IA realiza acciones en un ambiente y recibe recompensas o penalizaciones. Aprende a maximizar las recompensas, ¡como un jugador intentando batir su propio récord!
+
+Recompensas y Penalizaciones
+Las recompensas y penalizaciones son cruciales. Ayudan a la IA a entender qué está bien y qué está mal, guiándola hacia el comportamiento deseado. Es como un sistema de puntos para las máquinas.
+
+Ejemplos de Aprendizaje por Refuerzo
+¿Dónde se usa esto? En juegos de ajedrez de IA, coches autónomos e incluso en robots que aprenden a caminar. Cada desafío superado es una lección aprendida.
+
+Ejemplos de Aprendizaje por Refuerzo
+¿Dónde se usa esto? En juegos de ajedrez de IA, coches autónomos e incluso en robots que aprenden a caminar. Cada desafío superado es una lección aprendida.
+

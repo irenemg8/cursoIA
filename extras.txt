@@ -1,0 +1,171 @@
+https://magnific.ai/?showlogin
+
+Ahora podemos utilizar la interfaz web de Midjourney si hemos generado más de 100 imágenes
+https://x.com/midjourney/status/1786459645722407420
+
+https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/
+
+https://deepmind.google/technologies/project-astra/
+
+https://deepmind.google/technologies/gemini/flash/
+
+https://deepmind.google/technologies/veo/veo-2/
+
+https://deepmind.google/technologies/imagen-3/
+
+https://developers.googleblog.com/en/gemma-family-and-toolkit-expansion-io-2024/
+
+https://labs.google/fx/tools/image-fx/unsupported-country
+
+https://aistudio.google.com/app/prompts/new_chat
+
+https://x.ai/news/series-b
+
+https://claude.ai/new
+
+https://markmap.js.org/
+
+https://openai.com/index/improvements-to-data-analysis-in-chatgpt/
+
+https://lumalabs.ai/dream-machine
+
+https://runwayml.com/research/introducing-gen-3-alpha
+
+https://app.klingai.com/cn/en
+
+https://deepmind.google/discover/blog/generating-audio-for-video/
+
+https://www.xataka.com/robotica-e-ia/guerra-musica-generada-ia-sigue-escalando-grandes-discograficas-han-demandado-a-suno-ai-udio
+
+https://www.jenmusic.ai/
+
+https://huggingface.co/spaces/stabilityai/stable-diffusion-3-medium
+
+https://huggingface.co/spaces/KwaiVGI/LivePortrait
+---
+
+CONFERENCIAS
+https://www.youtube.com/watch?v=XEzRZ35urlk
+https://www.youtube.com/watch?v=WsEQjeZoEng
+
+https://www.youtube.com/watch?v=8OviTSFqucI
+https://www.youtube.com/watch?v=aZbHd4suAnQ
+https://www.youtube.com/watch?v=5H6_pCUt-mk
+https://blog.google/products/gemini/google-gemini-update-may-2024/#personalize-gems
+
+https://www.youtube.com/watch?v=RXeOiIDNNek
+
+
+---
+
+PROMPTS
+
+Prompts utilizados
+Actúa como un experto en visualización de datos, crea paneles de control en tiempo real para representar eficazmente la propagación de una enfermedad a lo largo del tiempo en varios países.
+
+
+Prompts utilizados
+
+Actúa como un experto senior en visualización de datos y desarrollador de React. Crea un panel de control integral y en tiempo real para representar eficazmente la propagación de una enfermedad a lo largo del tiempo en varios países. El panel debe ser informativo, fácil de usar y adecuado tanto para funcionarios de salud pública como para el público en general.
+Requisitos clave:
+1. Visualización de datos:
+  - Implementar múltiples tipos de gráficos (líneas, barras y áreas) para visualizar casos, recuperaciones y fallecimientos.
+  - Mostrar tarjetas de estadísticas resumen para obtener información rápida.
+  - Incluir niveles de confianza de los datos o márgenes de error cuando sea aplicable.
+
+2. Interactividad y experiencia del usuario:
+  - Permitir a los usuarios seleccionar y comparar varios países simultáneamente.
+  - Implementar selectores de rango de fechas para análisis de datos históricos.
+  - Añadir tooltips y efectos al pasar el cursor para obtener información detallada.
+  - Asegurar que el panel de control sea completamente responsivo y optimizado para dispositivos móviles.
+
+3. Manejo de datos:
+  - Simular actualizaciones en tiempo real (en un escenario real, esto se reemplazaría con llamadas a la API).
+  - Implementar caché de datos y carga perezosa para optimización del rendimiento.
+  - Incluir una atribución clara de las fuentes de datos y marcas de tiempo de la última actualización.
+  - Añadir una función básica de análisis predictivo para la previsión de tendencias.
+
+4. Accesibilidad e internacionalización:
+  - Asegurar que los esquemas de colores sean accesibles para usuarios daltónicos.
+  - Implementar compatibilidad con lectores de pantalla para los elementos clave del panel.
+  - Añadir soporte para varios idiomas (al menos inglés, español y mandarín).
+
+5. Funciones adicionales:
+  - Implementar botones de compartir en redes sociales para vistas o datos específicos.
+  - Añadir una funcionalidad de exportación de datos para usuarios que deseen realizar sus propios análisis.
+  - Incluir una breve nota sobre la privacidad y el manejo de datos.
+
+Directrices técnicas:
+- Utilizar React para construir el panel.
+- Utilizar la biblioteca recharts para crear los gráficos.
+- Usar la biblioteca de componentes shadcn/ui para los elementos de la interfaz de usuario.
+- Implementar diseño responsivo utilizando clases de Tailwind CSS.
+
+Estructura del código y documentación:
+- Organizar el código en componentes modulares y reutilizables.
+- Usar nombres de variables y funciones claros y descriptivos
+- Incluir comentarios intuitivos para que los usuarios no técnicos entiendan la funcionalidad del código.
+- Implementar un manejo adecuado de errores y estados de carga.
+
+Salida:
+Proporcionar el código completo del componente React para el panel de control, incluidos todos los importes necesarios y cualquier gancho o utilidad personalizada. Asegurarse de que el código esté bien formateado e incluya comentarios que expliquen las funcionalidades clave.
+
+Notas adicionales:
+- Si alguna característica no puede implementarse completamente dentro de las limitaciones del entorno de Claude Artifacts, proporcionar componentes de marcador de posición o comentarios que indiquen cómo se implementarían en un entorno de desarrollo completo.
+- Después del código, incluir un breve párrafo explicando los siguientes pasos para alojar este proyecto más allá del entorno de Claude Artifacts, dirigido a una persona no técnica.
+
+
+
+Prompts utilizados. Enlace al autor de este prompt
+https://x.com/luismbat/status/1804526512164507877
+Create a Three.js application in a single HTML file that simulates 40 identical triple pendulums in 2D under gravity. The simulation should have the following characteristics:
+1. Use Three.js for rendering and Cannon.js for physics simulations.
+2. All pendulums should have the same fixed point at (0,0).
+3. Each pendulum should consist of three segments of equal length and mass.
+4. The initial positions of the pendulums should be close to a 45-degree angle with the positive x-axis, with very slight random variations (use a variation of about 0.02 radians).
+5. Each pendulum should leave a temporary trace of its movement, with a different color for each pendulum.
+6. The strings connecting the multiple parts of the pendulum should be visible.
+7. The simulation should start when the user clicks on the screen.
+8. Clicking the screen again should restart the simulation with new initial conditions.
+9. The camera should be positioned to provide a zoomed-in view of the pendulums (use a camera position of (0, -1.5, 8)).
+10. Include on-screen instructions that say "Click to start/restart the simulation".
+11. The page should have a black background for better visibility of the pendulums and their traces.
+12. Ensure the simulation runs smoothly in modern web browsers.
+
+
+
+Prompts utilizados.
+https://x.com/goldcaddy77/status/1804724702901891313
+Create a webpage that is a 3D simulation using WebGL that shows a number of balls bouncing in a large cube. Expose controls for updating:
+- Number of Balls
+- Gravity
+- Cube Size
+Note that if any of the following cannot be done without importing three.js OrbitControls, please skip adding those features and note that you're skipping them.
+
+## User Interactions
+- Clicking and dragging will spin the 3D world, relatively quickly, like your mouse is actually moving it
+- When spinning the 3D world, the balls should respect the direction of the spin so that they're moving within the cube in a realistic way
+- Include a "Bounce" button that will bounce all balls in the cube using the current settings, giving all balls a new random direction and speed
+
+## UI Considerations
+- Give the UI clean styles
+- The controls should be in the top left and use pink sliders
+
+## World Considerations
+- Assume the floor has friction, so that as a ball rolls along it, it slows down
+- The balls should slow down a bit when they hit the wall or floor
+- The cube should be bright neon green
+- The balls should use a neon punk color palette
+
+Remember the following:
+- If any of the following cannot be done without importing three.js OrbitControls, please skip adding those features and note that you're skipping them
+- This is a 3D world, if you "spin the world," everything in the world should spin together, respecting the 3D space, including the cube and balls
+- Be terse with your coding, you only have a certain amount of code you can fit in this file
+- Spinning the cube should be fast, as if my mouse is rotating the cube
+
+
+---
+
+ARTIFACTS
+https://claude.site/artifacts/3f0c7b97-0cae-4905-817d-6b0d0fae444d
+https://claude.site/artifacts/82dd9e2c-26b5-4999-a84f-2db5bbfdfda3

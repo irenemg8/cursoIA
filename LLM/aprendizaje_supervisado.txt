@@ -1,0 +1,14 @@
+¿Qué es el Aprendizaje Supervisado?
+Imagina que estás enseñando a tu perro a sentarse. Le muestras cómo hacerlo y luego lo premias cuando lo hace bien. El aprendizaje supervisado es algo así, pero con computadoras.
+
+Datos Etiquetados
+Todo comienza con datos etiquetados. Estos son como las instrucciones claras que das a tu perro: 'esto es sentarse, esto no'. Con estos datos, las máquinas aprenden a reconocer patrones.
+
+Entrenamiento del Modelo
+Luego, entrenamos el modelo de IA con estos datos. Es como repetir el truco de 'sentarse' con tu perro, una y otra vez, hasta que lo domina. ¡Práctica, práctica, práctica!
+
+Pruebas y Ajustes
+Después del entrenamiento, probamos nuestro modelo. Si se equivoca, lo ajustamos, igual que corregirías a tu perro si se confunde.
+
+Aplicaciones del Aprendizaje Supervisado
+¿Dónde se usa esto? En todas partes. Desde filtrar tu email (¿es spam o no?) hasta predecir el tiempo. ¡La IA supervisada está trabajando para hacernos la vida más fácil!

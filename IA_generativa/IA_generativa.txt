@@ -1,0 +1,73 @@
+Comencemos hablando sobre la IA generativa.
+
+La IA generativa se enfoca en el uso de inteligencia artificial para generar nuevo contenido original.
+Por tanto, la IA generativa se caracteriza por crear este contenido original en comparación con la IA que solo estaba imitando algún comportamiento específico de los humanos. Esto abre muchas nuevas posibilidades de cosas que podemos llevar a cabo.
+
+LLM (Large Language Model)
+La inteligencia artificial generativa, específicamente los grandes modelos de lenguaje (LLM), se utiliza interactuando con ellos mediante "prompts" o solicitudes en lenguaje natural. Un LLM predice las siguientes palabras (o tokens) para generar texto.
+
+Creación de los LLM
+La creación de estos LLM requiere un extenso entrenamiento con grandes cantidades de datos, que provienen de internet, Wikipedia, libros y otras bibliotecas. Este proceso de entrenamiento consume una cantidad significativa de recursos computacionales, especialmente GPUs, debido a su capacidad para manejar las demandas de cómputo intensivo necesarias para entrenar estos modelos.
+
+Modelo transformador
+Estos LLM se basan en un modelo transformador, introducido en el artículo "la atención es todo lo que necesitas". Este modelo utiliza una arquitectura de codificador-decodificador, donde el codificador procesa la entrada y el decodificador genera la salida. El decodificador integra continuamente la entrada y la salida para hacer predicciones precisas.
+
+
+---
+
+En resumen, la arquitectura GPT consta de las siguientes partes
+
+Input
+Proporcionamos un prompt al modelo y éste predice la siguiente palabra. El prompt en lenguaje natural se divide en tokens para que la máquina pueda procesarlo.
+
+Embedding
+Los tokens se convierten en vectores mediante un modelo de embebido. Esto permite representar matemáticamente el significado semántico de las palabras, de modo que palabras similares como "jefe" y "supervisor" tengan vectores cercanos en un espacio de miles de dimensiones.
+
+Codificación posicional
+Para mantener el significado de la secuencia, se agrega codificación posicional a los vectores, diferenciando frases como "el perro mordió al gato" de "el gato mordió al perro".
+
+Atención
+La atención es crucial para manejar entradas y salidas largas, asegurando que el modelo no olvide información anterior. La función de atención evalúa la relevancia de cada parte de la entrada para cada parte de la salida usando:
+- Queries (Q): Elementos que buscan información relevante.
+- Keys (K): Etiquetas que describen los valores.
+- Values (V): Información real que se recupera.
+
+Las queries buscan a través de las keys para determinar qué values son importantes.
+
+Feed Forward
+La red neuronal pre-alimentada procesa los datos repetidamente, determinando la salida basada en los parámetros. Esto produce un vector de contexto.
+
+Salida
+Finalmente, los vectores pasan por una transformación lineal y una función softmax, que convierte los datos en probabilidades, indicando la probabilidad de que cada token sea el siguiente en la secuencia de salida.
+
+
+
+---
+
+https://oai.azure.com/resource/overview?tid=be4655df-ac73-401f-a7ae-198c3b72d0c6
+Mensajes anteriores incluidos: Seleccione el número de mensajes pasados que se incluirán en cada nueva solicitud de API. Esto ayuda a proporcionar el contexto del modelo para las nuevas consultas de usuario. Si establece este número en 10, se incluirán 5 consultas de usuario y 5 respuestas del sistema.
+Respuesta máxima: Establezca un límite en el número de tokens por respuesta del modelo. 
+Temperatura: Controla la aleatoriedad. Reducir la temperatura significa que el modelo generará respuestas más repetitivas y deterministas. El aumento de la temperatura dará lugar a respuestas más inesperadas o creativas. Intenta ajustar la temperatura o la P superior, pero no ambos.
+P superior: De forma similar a la temperatura, controla la aleatoriedad, pero usa un método diferente. Al reducir la P superior, se restringirá la selección de tokens del modelo a tokens atípicos. Si aumenta top P, el modelo podrá elegir entre tokens con alta y baja probabilidad. Intenta ajustar la temperatura o la P superior, pero no ambos.
+Detener secuencia: Haga que el modelo finalice su respuesta en un punto deseado. La respuesta del modelo finalizará antes de la secuencia especificada, por lo que no contendrá el texto de la secuencia de detención. Para ChatGPT, el uso de <|im_end|> garantiza que la respuesta del modelo no genera una consulta de usuario de seguimiento. Puede incluir hasta cuatro secuencias de detención.
+Penalización de frecuencia: Reduzca la posibilidad de repetir un token proporcionalmente en función de la frecuencia con la que ha aparecido en el texto hasta ahora. Esto reduce la probabilidad de repetir exactamente el mismo texto en una respuesta.
+Penalización de presencia: Reduzca la posibilidad de repetir cualquier token que haya aparecido en el texto hasta ahora. Esto aumenta la probabilidad de introducir nuevos temas en una respuesta.
+
+
+---
+
+Hay 4 puntos clave que debemos recordar
+Identificar
+Determinar los posibles daños de mi sistema de IA mediante pruebas de estrés que simulen acciones malintencionadas.
+
+Medir
+Establecer métricas para medir la frecuencia y gravedad de estos problemas, y realizar pruebas para determinar su probabilidad.
+
+Mitigar
+Desarrollar estrategias para mitigar los problemas, incluyendo protecciones y filtros.
+
+Operar
+Operar el sistema bajo estas medidas, siguiendo prácticas de IA responsable.
+
+
+---

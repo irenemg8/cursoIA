@@ -1,0 +1,73 @@
+La inteligencia artificial es una máquina que es capaz de imitar algún aspecto del comportamiento humano, como el reconocimiento de objetos, la toma de decisiones, predicciones basadas en datos pasados, etc.
+
+
+Machine learning
+El machine learning, o aprendizaje automático en español, es una rama de la inteligencia artificial (IA) que se centra en el desarrollo de algoritmos y modelos que permiten a las computadoras aprender y hacer predicciones o tomar decisiones basadas en datos. En lugar de ser programadas con instrucciones específicas para cada tarea, las máquinas utilizan datos y técnicas estadísticas para identificar patrones y mejorar su desempeño en tareas específicas con el tiempo.
+
+
+Proceso de entrenamiento
+Recolección de Datos: Se recopila un conjunto de datos de entrenamiento que contiene múltiples características (atributos) para cada ejemplo.
+Etiquetado de Datos: Cada ejemplo en el conjunto de datos tiene una etiqueta asociada que representa la respuesta correcta.
+Algoritmos de Aprendizaje: Se selecciona un algoritmo de aprendizaje para entrenar el modelo, que busca encontrar una relación entre las características y las etiquetas.
+Entrenamiento del Modelo: Dividimos nuestro conjunto de datos inicial, del cual conocemos sus etiquetas correctas, en dos partes. Una parte será datos de entrenamiento que usamos para entrenar el modelo ajustando sus parámetros para minimizar el error entre las etiquetas predichas y las etiquetas reales.
+Validación y Evaluación: la otra parte será datos de prueba, un conjunto de datos para los que también sabemos la etiqueta, pero solo enviamos los datos al modelo, dejamos que el modelo prediga la etiqueta y la comparamos con la etiqueta verdadera. Esto nos permite validar el modelo y decidir si está listo para usar.
+Predicción con Nuevos Datos: El modelo entrenado se utiliza para hacer predicciones sobre nuevos datos no etiquetados, utilizando la relación aprendida entre las características y las etiquetas.
+
+
+Tipos de algoritmo
+Árbol de decisión
+Un algoritmo que en cada nivel realiza una pregunta sobre los datos y, según la respuesta, avanza a la siguiente rama hasta llegar a un resultado final.
+Regresión
+Método para encontrar una relación entre variables. En regresión lineal, se busca una línea recta que ajuste los datos para predecir una variable en función de otra. La regresión logística es utilizada para problemas de clasificación, modelando la probabilidad de un resultado binario.
+Máquinas de vectores de soporte (SVM)
+Algoritmo que busca una línea o hiperplano que separe los datos etiquetados en diferentes grupos, maximizando el margen entre ellos para mejorar la precisión de la clasificación de nuevos datos.
+Otros Algoritmos
+Hay muchos otros algoritmos, cada uno con su propio enfoque para generalizar datos etiquetados. Dependiendo del tipo de datos y del problema, diferentes algoritmos pueden ser más efectivos. El objetivo común es generar un modelo entrenado capaz de predecir correctamente las etiquetas de nuevos datos.
+
+
+
+Tipos de aprendizaje
+Supervisado
+Tenemos un conjunto de datos etiquetados, y utilizamos los algoritmos discutidos anteriormente:
+- Regresión: Si el dato es numérico, usamos regresión para predecir valores continuos.
+- Clasificación: Puede ser binaria o multicategoría. Utilizamos
+No supervisado
+Tenemos un conjunto de datos sin etiquetas. El objetivo es encontrar agrupamientos (clustering) en un conjunto de datos amplio, identificando grupos basados en similitudes entre los datos.
+
+
+
+Deep learning
+El deep learning o aprendizaje profundo es un subconjunto del aprendizaje automático que utiliza redes neuronales para capturar relaciones complejas entre datos. Es fundamental para aplicaciones avanzadas como los grandes modelos de lenguaje (LLM), donde los algoritmos básicos no son suficientes.
+
+
+Redes neuronales
+Están formadas por múltiples capas de neuronas, cada una conectada a todas las demás en la siguiente capa.
+Cada neurona en una red tiene una función de activación que decide si transmite un valor a las neuronas conectadas.
+La red incluyen una capa de entrada, una capa de salida(resultados) y múltiples capas ocultas que ejecutan funciones de activación.
+Cada conexión entre neuronas tiene un peso, y cada neurona tiene un sesgo. Los pesos multiplican los valores de entrada, estirando o comprimiendo las funciones de activación, mientras que los sesgos ajustan el umbral de activación.
+En modelos grandes, hay miles de millones de parámetros (pesos y sesgos) que permiten modelar relaciones complejas. Estos modelos, como los de IA generativa, requieren enormes recursos para entrenarse, como decenas de miles de GPUs durante meses.
+
+
+
+Azure Machine Learning Studio
+https://ml.azure.com/home?tid=be4655df-ac73-401f-a7ae-198c3b72d0c6
+Podemos acceder al Azure Machine Learning Studio en ml.azure.com. Aquí, podemos crear un nuevo modelo de machine learning personalizado, generar conjuntos de datos, importar datos, etiquetarlos y generar el archivo de salida requerido. El estudio facilita el entrenamiento del modelo y la evaluación de su rendimiento.
+Azure Machine Learning Studio es poderoso para diversos tipos de entrenamiento según escenarios específicos. Una vez creado el modelo, se puede desplegar en contenedores o ejecutarlo en instalaciones de Azure.
+Sin embargo, no siempre es necesario hacer entrenamiento personalizado ya que para la mayoría de escenarios hay muchos modelos preconstruidos disponibles.
+Para el examen no necesitamos entrar ni utilizar esta plataforma, solamente tienes que saber que existe y para qué sirve.
+
+
+
+PORTAL DE Azure 
+https://login.microsoftonline.com/be4655df-ac73-401f-a7ae-198c3b72d0c6/oauth2/v2.0/authorize?redirect_uri=https%3A%2F%2Fportal.azure.com%2Fsignin%2Findex%2F&response_type=code%20id_token&scope=https%3A%2F%2Fmanagement.core.windows.net%2F%2Fuser_impersonation%20openid%20email%20profile&state=OpenIdConnect.AuthenticationProperties%3D9ZwaUg6zlalLy_Y8H0VRLEE1Rz_fvKBF2R4sWRmwL9bY4Y7Ba14HQ8grBVWivSa_dIiOiaO8kJWD2obO04PVAMepQoArQ1X7utCR3-qsis9pXSPtIl7eIrc5K3tMvWPQnYlvtLYjxzOdy1YkOsqQ5aCHs1bsSai7eQiMmcGfkQTtSnWuzuwZMkSeSeqbbeWSW1IE6IG26O8ya4qXaPEpTXpryCq7572Rlnbr-NCV1zH_iasgazlsVVeipba65zMS5oLN9LIlWxnyQRnBrKuzmwtHsaR009YFb5zyiCOiDrn3gTos49LYnG3b7ev36IGOWta0yAodIKG23iiMag0EEpjF2oeatsslT3gCxvTMxWjuEoS5IcgQDqyV5kcqr0o8oqieyktJfMYXSf1ic3XNvVhsT6BVEjLqOAyT_yfgJr-taGIaR_nEH4gSn8py3j5lWE36koFYa9tUKucSjOoD_KVzgzbEGJsNByHsvDR9T2pOrd96xD6mpBevDMrkWF-iWL02lo3RSwMKFXCaqEeyFETaniWV0T_-ZiLFdWG6butLPGi4rhCCwWxX-es2VU6s&response_mode=form_post&nonce=638803067421568928.NWRmMzdlYWItZTAwYi00M2EyLWEwNTQtNWMxYzNjMjBiZTIzOTM1ODcyMWUtNjY4Mi00YzU1LTk3YWItMjM2NWYzZWVlN2M3&claims=%7B%22id_token%22%3A%7B%22acrs%22%3A%7B%22essential%22%3Atrue%2C%22value%22%3A%22p1%22%7D%7D%7D&client_id=c44b4083-3bb0-49c1-b47d-974e53cbdf3c&site_id=501430&login_hint=IMEDGAR%40upv.edu.es&client-request-id=a67a0517-85be-456f-8a02-1d6b6f81ceee&x-client-SKU=ID_NET472&x-client-ver=8.3.0.0
+
+
+---
+
+Puedes echar un vistazo a los servicios de visión disponibles y sus características en Vision Studio
+También puedes ver la comparativa de Custom Vision con Análisis de imágenes en este enlace.
+https://portal.vision.cognitive.azure.com/gallery/featured
+https://documentintelligence.ai.azure.com/studio/
+https://language.cognitive.azure.com/home
+https://speech.microsoft.com/portal?tenantid=893352d9-9870-4633-87bf-428afa7be783
+https://learn.microsoft.com/es-es/azure/ai-services/custom-vision-service/overview

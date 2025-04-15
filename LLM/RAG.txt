@@ -1,0 +1,4 @@
+RAG son las siglas en inglés de "generación mejorada por recuperación"
+
+Es un proceso que nos permite utilizar archivos o bases de datos gigantes en modelos que no funcionan tan bien con tanta cantidad de datos.
+

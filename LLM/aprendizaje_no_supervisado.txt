@@ -1,0 +1,17 @@
+Introducción al Aprendizaje No Supervisado
+¡Aventurémonos en el mundo del Aprendizaje No Supervisado! Aquí, las máquinas aprenden solas, sin un 'maestro' que les diga qué hacer. Es como explorar un bosque sin mapa.
+
+¿Qué es el Aprendizaje No Supervisado?
+En el aprendizaje no supervisado, las computadoras analizan datos sin etiquetas. No hay 'correcto' o 'incorrecto', solo patrones y estructuras que descubrir. Es como resolver un rompecabezas sin ver la imagen final.
+
+Datos sin Etiquetar
+Trabajamos con montones de datos crudos, sin instrucciones específicas. La IA tiene que ser un detective y descubrir los misterios ocultos en estos datos.
+
+Detección de Patrones
+El corazón del aprendizaje no supervisado es encontrar patrones. La IA busca cosas en común, agrupa datos similares y encuentra estructuras interesantes. Es como agrupar las piezas de un rompecabezas por color.
+
+Aplicaciones Prácticas
+¿Dónde vemos esto en acción? En la recomendación de productos, análisis de redes sociales, y mucho más. ¡La IA no supervisada nos ayuda a descubrir cosas que ni sabíamos que buscábamos!
+
+Ventajas del Aprendizaje No Supervisado
+Una de las grandes ventajas es que puede manejar datos masivos y complejos. Además, siempre está lista para sorprendernos con conexiones y patrones nuevos. ¡Siempre hay algo nuevo que aprender!
